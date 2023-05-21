@@ -24,7 +24,7 @@ const schemaCliente = new mongoose.Schema({
     historialCompras: {
         type: String
     }
-})
+});
 
 
 const cliente = mongoose.model('cliente', schemaCliente);
